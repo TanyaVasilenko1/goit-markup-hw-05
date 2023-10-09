@@ -774,17 +774,13 @@ color: #4D5AE5;
             stroke: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
             margin-right: 8px;
             align-items: center;
+            fill: transparent;
             justify-content: center;
-            fill:transparent;
             border: 1px solid rgba(46, 47, 66, 0.4);
             border-radius: 2px;
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.check-text-icon{
-    opacity: 0;
-}
-
 .modal-check:checked + .check-text > .check-text-box{
     background-color: #404bbf;
     border: none;
